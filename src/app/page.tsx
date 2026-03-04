@@ -64,9 +64,9 @@ function LandingPage() {
               { text: "View Services", href: "#services" }
             ],
             stats: [
-              { title: "Google Rating", values: ["5.0", "5.0", "5.0"], description: "254+ verified reviews" },
-              { title: "Experience", values: ["8+", "8+", "8+"], valueSuffix: "years", description: "Years of legal practice" },
-              { title: "Availability", values: ["24", "24", "24"], valueSuffix: "/7", description: "Open 24 Hours" }
+              { title: "Google Rating", values: [95, 95, 95], description: "254+ verified reviews" },
+              { title: "Experience", values: [8, 8, 8], valueSuffix: "years", description: "Years of legal practice" },
+              { title: "Availability", values: [24, 24, 24], valueSuffix: "/7", description: "Open 24 Hours" }
             ],
             chartTitle: "Client Satisfaction",            chartData: [
               { value: 95 },
@@ -108,22 +108,22 @@ function LandingPage() {
           textboxLayout="default"
           features={[
             {
-              id: "01",              title: "Property & Registration",              description: "Will registration, power of attorney, release deed, leave & license, gift deed. Expert guidance for all property matters.",              imageSrc: "http://img.b2bpic.net/free-photo/approved-application-credit-real-estate_23-2147764204.jpg?_wi=1",              imageAlt: "property document legal document property agreement real estate contract"
+              id: "01",              title: "Property & Registration",              description: "Will registration, power of attorney, release deed, leave & license, gift deed. Expert guidance for all property matters.",              imageSrc: "http://img.b2bpic.net/free-photo/approved-application-credit-real-estate_23-2147764204.jpg",              imageAlt: "property document legal document property agreement real estate contract"
             },
             {
-              id: "02",              title: "Civil Litigation",              description: "Property disputes, succession certificate, legal heir certificate. Strong representation in civil courts.",              imageSrc: "http://img.b2bpic.net/free-photo/approved-application-credit-real-estate_23-2147764204.jpg?_wi=2",              imageAlt: "property document legal document property agreement real estate contract"
+              id: "02",              title: "Civil Litigation",              description: "Property disputes, succession certificate, legal heir certificate. Strong representation in civil courts.",              imageSrc: "http://img.b2bpic.net/free-photo/approved-application-credit-real-estate_23-2147764204.jpg",              imageAlt: "property document legal document property agreement real estate contract"
             },
             {
               id: "03",              title: "Criminal Defense",              description: "Experienced criminal defense advocacy. Dedicated representation for all criminal matters.",              imageSrc: "http://img.b2bpic.net/free-photo/scales-justice-front-courthouse_23-2152001195.jpg",              imageAlt: "justice scales legal justice law and order courthouse"
             },
             {
-              id: "04",              title: "Matrimonial Law",              description: "Divorce cases, matrimonial disputes, family law matters. Compassionate legal guidance.",              imageSrc: "http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg?_wi=1",              imageAlt: "law office interior legal office professional office space modern law firm"
+              id: "04",              title: "Matrimonial Law",              description: "Divorce cases, matrimonial disputes, family law matters. Compassionate legal guidance.",              imageSrc: "http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg",              imageAlt: "law office interior legal office professional office space modern law firm"
             },
             {
-              id: "05",              title: "Stamp Duty Consultation",              description: "Expert stamp duty advice, registration assistance, tax optimization strategies.",              imageSrc: "http://img.b2bpic.net/free-photo/approved-application-credit-real-estate_23-2147764204.jpg?_wi=3",              imageAlt: "property document legal document property agreement real estate contract"
+              id: "05",              title: "Stamp Duty Consultation",              description: "Expert stamp duty advice, registration assistance, tax optimization strategies.",              imageSrc: "http://img.b2bpic.net/free-photo/approved-application-credit-real-estate_23-2147764204.jpg",              imageAlt: "property document legal document property agreement real estate contract"
             },
             {
-              id: "06",              title: "Legal Documentation",              description: "Complete legal documentation support. Proper drafting and execution of all legal instruments.",              imageSrc: "http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg?_wi=2",              imageAlt: "law office interior legal office professional office space modern law firm"
+              id: "06",              title: "Legal Documentation",              description: "Complete legal documentation support. Proper drafting and execution of all legal instruments.",              imageSrc: "http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg",              imageAlt: "law office interior legal office professional office space modern law firm"
             }
           ]}
           gridVariant="bento-grid"
@@ -148,13 +148,13 @@ function LandingPage() {
               id: "01",              title: "5.0 ★ Rated Service",              description: "254+ verified Google reviews. Exceptional client satisfaction and trusted reputation.",              imageSrc: "http://img.b2bpic.net/free-vector/rate-remark-us-5-star-background-business-success-growth_1017-60939.jpg",              imageAlt: "google reviews 5 star rating customer reviews testimonials banner"
             },
             {
-              id: "02",              title: "24/7 Availability",              description: "Always available when you need legal support. Open 24 hours for emergencies and consultations.",              imageSrc: "http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg?_wi=3",              imageAlt: "law office interior legal office professional office space modern law firm"
+              id: "02",              title: "24/7 Availability",              description: "Always available when you need legal support. Open 24 hours for emergencies and consultations.",              imageSrc: "http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg",              imageAlt: "law office interior legal office professional office space modern law firm"
             },
             {
-              id: "03",              title: "Prime Location",              description: "Ground Floor, opposite Mira Road Railway Station. Convenient and accessible location.",              imageSrc: "http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg?_wi=4",              imageAlt: "law office interior legal office professional office space modern law firm"
+              id: "03",              title: "Prime Location",              description: "Ground Floor, opposite Mira Road Railway Station. Convenient and accessible location.",              imageSrc: "http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg",              imageAlt: "law office interior legal office professional office space modern law firm"
             },
             {
-              id: "04",              title: "Transparent Consultation",              description: "Clear communication, no hidden charges. Honest advice focused on your best interests.",              imageSrc: "http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg?_wi=5",              imageAlt: "law office interior legal office professional office space modern law firm"
+              id: "04",              title: "Transparent Consultation",              description: "Clear communication, no hidden charges. Honest advice focused on your best interests.",              imageSrc: "http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg",              imageAlt: "law office interior legal office professional office space modern law firm"
             }
           ]}
           gridVariant="four-items-2x2-equal-grid"
@@ -208,7 +208,7 @@ function LandingPage() {
           description="Speak directly with Advocate Aalaya A. Khan. Free consultation to discuss your legal concerns and find the best solution."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={true}
-          imageSrc="http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg?_wi=6"
+          imageSrc="http://img.b2bpic.net/free-photo/positive-business-team-discussing-report-sitting-meeting-table-with-monitor-holding-looking-documents-business-meeting-teamwork-concept_74855-11909.jpg"
           imageAlt="law office interior legal office professional office space modern law firm"
           mediaAnimation="slide-up"
           mediaPosition="right"
